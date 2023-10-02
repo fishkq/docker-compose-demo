@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  docker-compose-demo:
+    image: docker-compose-demo:maven
+    restart: always
+    environment:
+      a_bcDe: compose
+    ports:
+      - "9090:8080"
